@@ -158,15 +158,27 @@ nav {
 }
 
 .horizontal-scroll {
-  width: 100%;
-  overflow-x: scroll;
-  scrollbar-color: transparent transparent;
+  display: flex;
+  overflow-x: auto; /* Allow horizontal scrolling */
+  white-space: nowrap; /* Ensure cards are in a row */
+  padding: 10px 0; /* Add some padding if needed */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox */
+  -webkit-overflow-scrolling: touch; /* For smoother scrolling on touch devices */
 }
 
 .horizontal-scroll::-webkit-scrollbar {
-  display: none;
+  height: 8px; /* Chrome, Safari */
 }
 
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background: #888; /* Chrome, Safari */
+  border-radius: 10px;
+}
+
+.horizontal-scroll::-webkit-scrollbar-track {
+  background: #fff; /* Chrome, Safari */
+}
 /* fonts */
 h1 {
   font-family: "Saira Condensed", sans-serif;

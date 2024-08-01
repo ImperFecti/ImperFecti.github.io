@@ -21,3 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", checkFadeIn);
   checkFadeIn(); // Initial check in case elements are already in view
 });
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const scrollContainer = document.getElementById("scrollable");
+
+  scrollContainer.addEventListener("wheel", (event) => {
+    event.preventDefault(); // Prevent the default scroll behavior
+    scrollContainer.scrollLeft += event.deltaY; // Scroll horizontally
+  });
+});
