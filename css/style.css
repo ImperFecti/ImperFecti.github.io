@@ -80,6 +80,7 @@ nav {
 /* hero2 section */
 
 .hero2 {
+  margin-bottom: 30px;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
@@ -124,11 +125,6 @@ nav {
   margin-right: auto;
 }
 
-.cntnr-card {
-  display: flex;
-  justify-content: center;
-}
-
 .card-body {
   padding: 15px;
   display: flex;
@@ -157,9 +153,18 @@ nav {
 
 .card-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  width: max-content;
+  gap: 1rem;
+}
+
+.horizontal-scroll {
+  width: 100%;
+  overflow-x: scroll;
+  scrollbar-color: transparent transparent;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
 }
 
 /* fonts */
@@ -445,47 +450,14 @@ h5 {
   transform: translate(0, 5%);
 }
 
-/* efek transisi  */
+/* CSS for fade in effect */
 .fade-in {
-  animation: fadeInAnimation 1s ease-in forwards;
   opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.delay-1 {
-  animation-delay: 0.5s;
-}
-
-.delay-2 {
-  animation-delay: 1s;
-}
-
-.delay-3 {
-  animation-delay: 1.5s;
-}
-
-.delay-4 {
-  animation-delay: 2s;
-}
-
-.delay-5 {
-  animation-delay: 2.5s;
-}
-
-.delay-6 {
-  animation-delay: 3s;
-}
-
-.delay-7 {
-  animation-delay: 3.5s;
+.fade-in.show {
+  opacity: 1;
 }
 
 /* cards */
@@ -495,11 +467,6 @@ h5 {
   border-radius: 13px;
   box-shadow: rgba(0, 0, 0, 0.123) 3px 6px 10px;
   transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.cntnr-card {
-  display: flex;
-  justify-content: center;
 }
 
 .card-body {
