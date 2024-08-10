@@ -1,256 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-<!-- You think my codes are a disaster? Man, my life is a disaster too. -->
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Muhammad Adil Saputra - Web Developer | Backend Developer</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  <!-- Favicon -->
-  <link rel="icon" href="/img/kkkk.ico" type="image/x-icon" />
-
-  <!-- My Css -->
-  <link rel="stylesheet" href="/css/style.css" />
-
-  <!-- fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/indexstyle.css">
 </head>
 
 <body>
-  <!-- Navbar start -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.linkedin.com/in/adilsputra">adilsputra</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item px-3">
-            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link active" aria-current="page" href="#Projects">
-              Projects
-            </a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link active" aria-current="page" href="#Educations">Educations</a>
-          </li>
-          <li class="nav-item px-3">
-            <a class="nav-link"
-              href="https://drive.google.com/file/d/1x-O6DWu46ELmhPc6UdCjkXPo741tdpnT/view?usp=sharing">
-              CV
-              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-                class="bi bi-arrow-up-right" viewBox="0 0 16 16" style="vertical-align: middle;">
-                <path fill-rule="evenodd"
-                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z">
-                </path>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <span class="navbar-text"> <a class="button-57" role="button" href="graphdesigner.html"><span class="text">As a
-              Graphic Designer</span><span>Alternate Now</span></a>
-        </span>
-      </div>
-    </div>
+
+  <nav class="share-tech-mono">
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Educations">Educations</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
   </nav>
-  <!-- navbar end -->
 
-  <!-- hero start -->
-  <section class="hero" id="Home">
-    <main class="content">
-      <div class="fade-in">
-        <h1>Web Developer | Backend Developer</h1>
-      </div>
-      <h5 class="fade-in">
-        I'm <b>Muhammad Adil Saputra</b>, I have proficiency in software development and information technology, with
+  <section class="hero fade-in" id="Home">
+    <div class="container-lg">
+      <h1 class="share-tech-mono">Web Developer | Backend Developer</h1>
+      <p>I'm Muhammad Adil Saputra, I have proficiency in software development and
+        information technology, with
         abilities in programming and creating web
-        and mobile applications, and am known for my strong teamwork, discipline, time management, and problem-solving
-        skills.
-      </h5>
-    </main>
+        and mobile applications, and am known for my strong teamwork, discipline, time management, and
+        problem-solving
+        skills.</p>
+      <div class="arrow-down">
+        <a href="#About" class="bi bi-arrow-down-circle"></a>
+      </div>
+    </div>
   </section>
-  <!-- hero end -->
 
-  <!-- cards start -->
-  <br>
-  <div class="m-5 px-5">
-    <h1 class="fade-in pb-3 text-center" id="Projects">Latest Projects</h1>
-    <div class="row d-flex fade-in">
-      <div class="col-sm-6 fade-in d-flex align-items-stretch">
-        <div class="card text-right hoverable">
-          <div class="card-header text-center">
-            Web Development
-          </div>
-          <div class="card-body d-flex flex-column">
-            <h3 class="card-title">Aplikasi Pembayaran Listrik Pascabayar</h3>
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-calendar-check" viewBox="0 0 16 16">
-                <path
-                  d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                <path
-                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
-              </svg> Jul 2024 - Present</p>
-            <p class="card-text">
-              Postpaid Electricity Payment Application is a web application developed using CodeIgniter 4 framework with
-              PHP language.
-              This application provides login and register features for users as well as admins, allowing them to
-              securely access and
-              manage their accounts. In addition, the app is equipped with a calculator to calculate electricity usage
-              based on the
-              rate per kWh, a feature to record and display monthly electricity usage, as well as the ability to view
-              electricity bill
-              details. With these various features, the app aims to make it easier for users to manage and monitor their
-              electricity
-              usage and bills online.
-            </p>
-            <div class="mt-auto">
-              <a href="https://github.com/ImperFecti/bayar-listrik" class="button-link">
-                <button class="button-86" role="button">
-                  Github Repository
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 d-flex align-items-stretch">
-        <div class="card hoverable">
-          <div class="card-header text-center">Mini Project</div>
-          <div class="card-body d-flex flex-column">
-            <h3 class="card-title">BMI Calculator</h3>
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-calendar-check" viewBox="0 0 16 16">
-                <path
-                  d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                <path
-                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
-              </svg> Jul - Jul 2024</p>
-            <p class="card-text">
-              Developed as part of the RevoU Mini Project: Fundamental Course Software Engineering. This BMI calculator
-              is a web-based
-              application that calculates a user's Body Mass Index (BMI) based on their weight and height inputs. The
-              project uses
-              HTML, CSS, and JavaScript to create a user-friendly interface and ensure accurate calculations. This tool
-              provides a
-              quick and easy way to determine BMI, increasing awareness of healthy weight.
-            </p>
-            <div class="mt-auto">
-              <a href="https://github.com/ImperFecti/BMIcalc" class="button-link">
-                <button class="button-86" role="button">
-                  Github Repository
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
+  <div class="container-lg">
+    <div class="about mt-5 text-center fade-in" id="About">
+      <h1 class="share-tech-mono"><i class="bi bi-person"></i> About Me</h1>
+      <p>Focusing on software development and information technology. Have experience and in-depth understanding
+        of
+        various programming languages, software development and database management. Proficient in the use of
+        information technology-related software and platforms, including the creation of web and mobile
+        applications, as well as web-based information systems.</p>
+
+      <p>Known as an individual who has good cooperation, discipline, effective time management and strong
+        critical
+        thinking and
+        problem-solving skills strong critical thinking and problem-solving skills.</p>
+      <div class="arrow-down">
+        <a href="#Educations" class="bi bi-arrow-down-circle"></a>
       </div>
     </div>
-    <div class="row d-flex fade-in">
-      <div class="col-sm-6 d-flex align-items-stretch">
-        <div class="card hoverable">
-          <div class="card-header text-center">Web Development</div>
-          <div class="card-body d-flex flex-column">
-            <h3 class="card-title">ranMa</h3>
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-calendar-check" viewBox="0 0 16 16">
-                <path
-                  d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                <path
-                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
-              </svg> Apr - May 2024</p>
-            <p class="card-text">
-              Using the CodeIgniter 4 framework and PHP language, this project
-              aims to help mosques publish financial reports transparently and
-              efficiently. With this website, mosques can move from manual
-              reports to a digital system, making access to financial
-              information easier for worshipers.
-            </p>
-            <div class="mt-auto">
-              <a href="https://github.com/ImperFecti/ranMa" class="button-link">
-                <button class="button-86" role="button">
-                  Github Repository
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 fade-in d-flex align-items-stretch">
-        <div class="card text-right hoverable">
-          <div class="card-header text-center">
-            Mobile Development
-          </div>
-          <div class="card-body d-flex flex-column">
-            <h3 class="card-title">aROG</h3>
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-calendar-check" viewBox="0 0 16 16">
-                <path
-                  d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-                <path
-                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
-              </svg> Sep - Dec 2023</p>
-            <p class="card-text">
-              Using Unity and Vuforia SDK, this project develops an Augmented
-              Reality (AR)-based mobile application that combines real-world
-              elements with digital ones in an interactive and immersive way.
-              aROG is designed to provide innovative and engaging experiences,
-              and can be applied in education, entertainment, and marketing.
-            </p>
-            <div class="mt-auto">
-              <a href="https://drive.google.com/drive/folders/1PYn79KkB5IOmWN4YHn52hGVTO6gdnhtw?usp=sharing"
-                class="button-link">
-                <button class="button-86" role="button">
-                  Google Drive
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- cards end -->
 
-  <!-- education start -->
-  <div class="row m-5 ">
     <div class="col-sm-12">
-      <div class="experience-section">
-        <h1 class="fade-in" id="Educations">Educations</h1>
-        <div class="experience fade-in">
+      <div class="experience-section  fade-in" id="Educations">
+        <h1 class="mb-4 fade-in share-tech-mono" id="Educations"><i class="bi bi-mortarboard"></i> Educations
+        </h1>
+        <div class="experience exp-hr fade-in">
           <a class="title" href="https://www.bsi.ac.id/ubsi/kampus-cut-mutiah.ajax">
             Bina Sarana Informatika University
-            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-              class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z" />
-            </svg>
+            <i class="bi bi-arrow-up-right-circle"></i>
           </a>
-          <div class="duration"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-              class="bi bi-calendar-check" viewBox="0 0 16 16">
-              <path
-                d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-              <path
-                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
-            </svg> January 2021 - Present</div>
+          <div class="duration"><i class="bi bi-calendar-check"></i> January 2021 - Present</div>
           <div class="description">
-            During my time at Bina Sarana Informatika University (UBSI), I gained a solid foundation in information
+            During my time at Bina Sarana Informatika University (UBSI), I gained a solid foundation in
+            information
             technology and
-            computer science, with a strong focus on practical application through hands-on projects and collaborative
+            computer science, with a strong focus on practical application through hands-on projects and
+            collaborative
             assignments.
-            The curriculum, combined with workshops and seminars, kept me updated with the latest industry trends and
+            The curriculum, combined with workshops and seminars, kept me updated with the latest industry
+            trends and
             technological
-            advancements, while the supportive faculty fostered an environment of innovation, critical thinking, and
+            advancements, while the supportive faculty fostered an environment of innovation, critical
+            thinking,
+            and
             continuous
             learning.
           </div>
@@ -258,32 +86,184 @@
         <div class="experience fade-in">
           <a class="title" href="https://www.man2kotabekasi.sch.id/">
             MAN 2 Kota Bekasi
-            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-              class="bi bi-arrow-up-right-circle" viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.854 10.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z" />
-            </svg>
+            <i class="bi bi-arrow-up-right-circle"></i>
           </a>
-          <div class="duration"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
-              class="bi bi-calendar-check" viewBox="0 0 16 16">
-              <path
-                d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-              <path
-                d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
-            </svg> May 2019 - May 2021</div>
+          <div class="duration"><i class="bi bi-calendar-check"></i> May 2019 - May 2021</div>
           <div class="description">
-            While attending high school, I had a valuable experience in the science department, which provided a strong
+            While attending high school, I had a valuable experience in the science department, which
+            provided a
+            strong
             foundation
-            in science and math. It involved a curriculum that enhanced my understanding of scientific concepts.
+            in science and math. It involved a curriculum that enhanced my understanding of scientific
+            concepts.
+          </div>
+        </div>
+        <div class="arrow-down">
+          <a href="#Projects" class="bi bi-arrow-down-circle"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row fade-in" id="Projects">
+      <div class="p-3 text-center">
+        <h1 class="share-tech-mono"><i class="bi bi-bookmark-check"></i> Latest Projects</h1>
+        <p>These are some of the awesome projects I've been working on</p>
+      </div>
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="share-tech-mono">Aplikasi Pembayaran Listrik Pascabayar</h5>
+            <p><i class="bi bi-calendar-check"></i> Jul - Aug 2024</p>
+            <p class="card-text">Postpaid Electricity Payment Application is a web application developed
+              using CodeIgniter 4 framework with
+              PHP language.
+              This application provides login and register features for users as well as admins, allowing
+              them to
+              securely access and
+              manage their accounts. In addition, the app is equipped with a calculator to calculate
+              electricity usage
+              based on the
+              rate per kWh, a feature to record and display monthly electricity usage, as well as the
+              ability to view
+              electricity bill
+              details. With these various features, the app aims to make it easier for users to manage and
+              monitor their
+              electricity
+              usage and bills online.</p>
+            <a type="button" class="button-28" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-project="project1">
+              View More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="share-tech-mono">BMI Calculator</h5>
+            <p><i class="bi bi-calendar-check"></i> Jul - Jul 2024</p>
+            <p class="card-text">Developed as part of the RevoU Mini Project: Fundamental Course Software
+              Engineering. This BMI calculator
+              is a web-based
+              application that calculates a user's Body Mass Index (BMI) based on their weight and height
+              inputs. The
+              project uses
+              HTML, CSS, and JavaScript to create a user-friendly interface and ensure accurate
+              calculations. This tool
+              provides a
+              quick and easy way to determine BMI, increasing awareness of healthy weight.</p>
+            <a type="button" class="button-28" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-project="project2">
+              View More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="share-tech-mono">ranMa - Laporan Masjid</h5>
+            <p><i class="bi bi-calendar-check"></i> Apr - May 2024</p>
+            <p class="card-text">
+              Using the CodeIgniter 4 framework and PHP language, this project
+              aims to help mosques publish financial reports transparently and
+              efficiently. With this website, mosques can move from manual
+              reports to a digital system, making access to financial
+              information easier for worshipers.
+            </p>
+            <a type="button" class="button-28" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-project="project3">
+              View More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="share-tech-mono">aROG</h5>
+            <p><i class="bi bi-calendar-check"></i> Sep - Dec 2024</p>
+            <p class="card-text">
+              Using Unity and Vuforia SDK, this project develops an Augmented
+              Reality (AR)-based mobile application that combines real-world
+              elements with digital ones in an interactive and immersive way.
+              aROG is designed to provide innovative and engaging experiences,
+              and can be applied in education, entertainment, and marketing.
+            </p>
+            <a type="button" class="button-28" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-project="project4">
+              View More
+            </a>
           </div>
         </div>
       </div>
     </div>
+
+    <section class="contact-section" id="Contact">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="contact-box fade-in">
+              <h1 class="share-tech-mono text-center"><i class="bi bi-person-lines-fill"></i> Contact Me
+              </h1>
+              <p class="text-center">Feel free to get in touch with me through the following channels.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-box fade-in">
+              <ul class="contact-list">
+                <li><i class="bi bi-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/adilsputra"
+                    target="_blank">Muhammad Adil
+                    Saputra</a>
+                </li>
+                <li><i class="bi bi-envelope-arrow-up"></i> Email: <a href="mailto:adilm8909@gmail.com"
+                    target="_blank">adilm8909@gmail.com</a></li>
+                <li><i class="bi bi-github"></i> GitHub: <a href="https://github.com/ImperFecti"
+                    target="_blank">ImperFecti</a></li>
+                <li><i class="bi bi-twitter-x"></i> X: <a href="https://twitter.com/_adilsputra"
+                    target="_blank">@_adilsputra</a></li>
+                <li><i class="bi bi-instagram"></i> Instagram: <a href="mailto:adilm8909@gmail.com"
+                    target="_blank">@_adilsputra</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="text-center mb-5 fade-in">
+      <p>Want to see me as a graphic designer ?</p>
+      <a class="button-57" role="button" href="graphdesigner.html"><span class="text">As a
+          Graphic Designer</span><span>Alternate Now</span>
+      </a>
+    </div>
+    <hr style="width: 80%; margin: 0 auto;">
   </div>
-  <!-- education end -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalTitle"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modalBody">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="button-31" data-bs-dismiss="modal">Close</button>
+          <a href="#" id="modalLink" class="button-57" role="button"><span class="text">View
+              Project</span><span>Go Now</span></a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal -->
 
   <!-- footer start -->
-  <footer class="bg-body-tertiary text-center text-lg-start">
+  <footer>
     <!-- Grid container -->
     <div class="container pt-2">
       <!-- Section: Social media -->
@@ -292,64 +272,41 @@
         <div class="d-flex justify-content-center">
           <!-- twitter -->
           <a class="btn btn-link btn-floating btn-lg text-body m-1" href="https://twitter.com/_adilsputra">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x"
-              viewBox="0 0 16 16">
-              <path
-                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
-            </svg>
+            <i class="bi bi-twitter-x"></i>
           </a>
           <!-- Github -->
           <a class="btn btn-link btn-floating btn-lg text-body m-1" href="https://github.com/ImperFecti">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
-              viewBox="0 0 16 16">
-              <path
-                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-            </svg>
+            <i class="bi bi-github"></i>
           </a>
           <!-- instagram -->
           <a class="btn btn-link btn-floating btn-lg text-body m-1" href="https://www.instagram.com/_adilsputra/">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
-              viewBox="0 0 16 16">
-              <path
-                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
-            </svg>
+            <i class="bi bi-instagram"></i>
           </a>
           <!-- linkedin -->
           <a class="btn btn-link btn-floating btn-lg text-body m-1" href="https://www.linkedin.com/in/adilsputra">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
-              viewBox="0 0 16 16">
-              <path
-                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-            </svg>
+            <i class="bi bi-linkedin"></i>
           </a>
           <!-- email -->
-          <a class="btn btn-link btn-floating btn-lg text-body m-1" href="mailto:adilm8909@gmail.com"><svg
-              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-envelope-arrow-up" viewBox="0 0 16 16">
-              <path
-                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4.5a.5.5 0 0 1-1 0V5.383l-7 4.2-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h5.5a.5.5 0 0 1 0 1H2a2 2 0 0 1-2-1.99zm1 7.105 4.708-2.897L1 5.383zM1 4v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1" />
-              <path
-                d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.354-5.354 1.25 1.25a.5.5 0 0 1-.708.708L13 12.207V14a.5.5 0 0 1-1 0v-1.717l-.28.305a.5.5 0 0 1-.737-.676l1.149-1.25a.5.5 0 0 1 .722-.016" />
-            </svg></a>
+          <a class="btn btn-link btn-floating btn-lg text-body m-1" href="mailto:adilm8909@gmail.com">
+            <i class="bi bi-envelope-arrow-up"></i>
+          </a>
         </div>
       </section>
       <!-- Section: Social media -->
     </div>
     <!-- Grid container -->
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="text-center p-3" style="background-color: #282c34;">
       <a>© 2024 adilsputra</a>
     </div>
     <!-- Copyright -->
   </footer>
   <!-- footer end -->
 
-
+  <script src=" /js/indexscript.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
-  <script src="/js/script.js"></script>
 </body>
 
 </html>
