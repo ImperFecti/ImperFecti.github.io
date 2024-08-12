@@ -55,24 +55,8 @@ nav a {
   font-size: 14px;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-  nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 75%;
-  }
-
-  nav li {
-    flex: 1 1 33%;
-    text-align: center;
-    padding: 5px;
-  }
-}
-
 /* hero styling */
 .hero {
-  /* background-image: url(../images/hero.jpg); */
   background-size: 100% 100%;
   background-position: 0px 0px;
   background-image: radial-gradient(
@@ -84,7 +68,19 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+}
+
+.hero i {
+  color: white;
+}
+
+.hero i:hover {
+  color: #e0e0e0; /* Warna saat hover, opsional */
+}
+
+/* arrow down styling */
+.arrow-down {
+  margin-top: 30px;
 }
 
 .arrow-down a {
@@ -92,7 +88,7 @@ nav a {
   font-size: 1.5rem; /* Anda bisa menyesuaikan ukuran ikon */
 }
 
-.hero-arrow-down a:hover {
+.arrow-down a:hover {
   color: #e0e0e0; /* Warna saat hover, opsional */
 }
 
@@ -103,6 +99,12 @@ nav a {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.about-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
 
 /* education styling */
@@ -233,6 +235,21 @@ footer .btn-link {
 
 footer .btn-link:hover {
   color: #e0e0e0 !important; /* Warna saat hover, opsional */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+  }
+
+  nav li {
+    flex: 1 1 33%;
+    text-align: center;
+    padding: 5px;
+  }
 }
 
 /* CSS for fade in effect */
