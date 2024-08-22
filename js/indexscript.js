@@ -29,34 +29,33 @@ exampleModal.addEventListener("show.bs.modal", function (event) {
 
   // Menentukan konten modal berdasarkan data-project
   if (project === "project1") {
-    modalTitle.textContent = "Aplikasi Pembayaran Listrik Pascabayar";
+    modalTitle.textContent = "Simple Cashier Web Based Application";
+    modalBody.innerHTML = `
+                <p>Simple Cashier application is a simple cashier application that facilitates the sales transaction process in stores or small businesses. With features such as item data input, automatic total price calculation, receipt printing, and transaction history storage, this app is designed to be easy to use by anyone.</p>
+                <p>It also provides sales reports to monitor business performance, helping store owners manage sales and inventory more efficiently and organized.</p>
+            `;
+    modalLink.href = "https://github.com/ImperFecti/simple-cashier"; // Ganti dengan link project yang sesuai
+  } else if (project === "project2") {
+    modalTitle.textContent = "Postpaid Electricity Payment Website Application";
     modalBody.innerHTML = `
                 <p>Postpaid Electricity Payment Application is a web application developed using CodeIgniter 4 framework with PHP language. This application provides login and register features for users as well as admins, allowing them to securely access and manage their accounts.</p>
                 <p>In addition, the app is equipped with a calculator to calculate electricity usage based on the rate per kWh, a feature to record and display monthly electricity usage, as well as the ability to view electricity bill details.</p>
             `;
     modalLink.href = "https://github.com/ImperFecti/bayar-listrik"; // Ganti dengan link project yang sesuai
-  } else if (project === "project2") {
+  } else if (project === "project3") {
     modalTitle.textContent = "BMI Calculator";
     modalBody.innerHTML = `
                 <p>Developed as part of the RevoU Mini Project: Fundamental Course Software Engineering. This BMI calculator is a web-based application that calculates a user's Body Mass Index (BMI) based on their weight and height inputs.</p>
                 <p>The project uses HTML, CSS, and JavaScript to create a user-friendly interface and ensure accurate calculations. This tool provides a quick and easy way to determine BMI, increasing awareness of healthy weight.</p>
             `;
     modalLink.href = "https://github.com/ImperFecti/BMIcalc"; // Ganti dengan link project yang sesuai
-  } else if (project === "project3") {
+  } else if (project === "project4") {
     modalTitle.textContent = "ranMa - Laporan Masjid";
     modalBody.innerHTML = `
                 <p>ranMa is a web-based application for mosque financial reporting developed using CodeIgniter 4 and PHP. It aims to help mosques publish financial reports transparently and efficiently.</p>
                 <p>With this website, mosques can move from manual reports to a digital system, making access to financial information easier for worshipers.</p>
             `;
     modalLink.href = "https://github.com/ImperFecti/ranMa"; // Ganti dengan link project yang sesuai
-  } else if (project === "project4") {
-    modalTitle.textContent = "aROG";
-    modalBody.innerHTML = `
-                <p>aROG is an Augmented Reality (AR)-based mobile application developed using Unity and Vuforia SDK.</p>
-                <p>This project combines real-world elements with digital ones in an interactive and immersive way, providing innovative and engaging experiences in education, entertainment, and marketing.</p>
-            `;
-    modalLink.href =
-      "https://drive.google.com/drive/folders/1PYn79KkB5IOmWN4YHn52hGVTO6gdnhtw?usp=sharing"; // Ganti dengan link project yang sesuai
   }
 });
 
