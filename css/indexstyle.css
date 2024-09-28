@@ -136,7 +136,7 @@ nav a {
   color: inherit; /* Inherits the color from the parent element */
 }
 
-.duration {
+.subtitle {
   color: gray;
   margin: 5px 0;
 }
@@ -149,6 +149,51 @@ nav a {
 .modal-content {
   background-color: #333;
 }
+
+/* License and Certification styling */
+.license-cert-section {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.license-cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.license-cert-item {
+  padding: 20px;
+}
+
+.license-cert-item .title {
+  font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.license-cert-item .subtitle {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+.license-cert-item i {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .license-cert-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* card style */
 .card {
   background-color: #333;
@@ -181,7 +226,6 @@ nav a {
 }
 
 .contact-box {
-  border-radius: 10px;
   margin: 15px auto;
   padding: 20px;
   color: #fff;
