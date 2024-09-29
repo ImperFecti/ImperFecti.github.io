@@ -55,6 +55,28 @@ nav a {
   font-size: 14px;
 }
 
+.nav-item .dropdown-menu {
+  background-color: #282c34;
+  border-radius: 12px;
+}
+
+.dropdown-toggle {
+  font-size: 14px;
+}
+
+.dropdown-item {
+  color: #ffffff;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdown-item:hover {
+  background-color: #444c56;
+  color: #ffffff;
+}
+
 /* hero styling */
 .hero {
   background-size: 100% 100%;
@@ -153,10 +175,16 @@ nav a {
 /* License and Certification styling */
 .license-cert-section {
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.license-cert-section h1 {
+  text-align: center; /* Menyelaraskan teks di tengah */
+  width: 100%; /* Mengambil seluruh lebar elemen */
+  font-size: 2em; /* Sesuaikan ukuran font untuk tampilan besar */
 }
 
 .license-cert-grid {
@@ -192,6 +220,42 @@ nav a {
   .license-cert-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Development Tools styling */
+.dev-tools-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.dev-tools-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dev-tool-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.dev-tool-item i {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+.tool-title {
+  font-size: 0.9em;
+  color: #fff;
 }
 
 /* card style */
